@@ -1,0 +1,39 @@
+:root {
+  --color-red: hsl(355, 66%, 50%);
+  --color-red-lt: hsl(355, 70%, 54%);
+  --color-black: hsl(0, 4%, 15%);
+  --color-grey: hsl(0, 4%, 35%);
+  --color-grey-lt: hsl(353, 4%, 55%);
+  --color-white: hsl(0, 0%, 100%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+main {
+  overflow-x: clip;
+}
+
+body {
+  margin: 0;
+  /* font-family: "Plus Jakarta Sans", Arial, Helvetica, sans-serif; */
+  font-weight: 500;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: 800;
+  /* line-height: 1.2; */
+  color: var(--color-black);
+}
+
+p {
+  color: var(--color-grey);
+  /* line-height: 1.5; */
+  /* max-width: 35ch; */
+}
