@@ -19,8 +19,8 @@ main {
 
 body {
   margin: 0;
-  /* font-family: "Plus Jakarta Sans", Arial, Helvetica, sans-serif; */
-  font-weight: 500;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 400;
 }
 
 h1,
