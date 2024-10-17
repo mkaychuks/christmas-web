@@ -2,6 +2,21 @@
   padding-inline: 24px;
 }
 
+.red-button {
+  color: var(--color-white);
+  padding: 16px 32px;
+  background: var(--color-red);
+  border-radius: 64px;
+  transition: opacity 150ms ease-in-out;
+  border: none;
+  font-size: var(--fs-4);
+  cursor: pointer;
+}
+
+.red-button:hover {
+  opacity: 50%;
+}
+
 @media (width >= 70em) {
   .wrapper {
     padding-inline: 0;

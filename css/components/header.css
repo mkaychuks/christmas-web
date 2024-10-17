@@ -36,7 +36,7 @@
   font-size: var(--fs-4);
   color: var(--color-black);
   cursor: pointer;
-  margin-inline-start: 48px;
+  margin-inline-start: 36px;
   transition: color 150ms ease-in-out;
 }
 
