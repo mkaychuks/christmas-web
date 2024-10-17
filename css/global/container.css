@@ -1,0 +1,11 @@
+.wrapper {
+  padding-inline: 24px;
+}
+
+@media (width >= 70em) {
+  .wrapper {
+    padding-inline: 0;
+    max-width: 52.25em;
+    margin: auto;
+  }
+}

@@ -27,8 +27,6 @@ h1,
 h2,
 h3 {
   margin: 0;
-  font-weight: 800;
-  /* line-height: 1.2; */
   color: var(--color-black);
 }
 
@@ -36,4 +34,14 @@ p {
   color: var(--color-grey);
   /* line-height: 1.5; */
   /* max-width: 35ch; */
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
 }
