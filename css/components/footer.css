@@ -1,0 +1,51 @@
+.footer {
+  padding-block: 49px;
+  row-gap: 32px;
+  display: grid;
+  position: relative;
+}
+
+.footer .footer-sections h3 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.footer .footer-sections p {
+  font-size: 1rem;
+  padding-block: 6px;
+}
+
+.footer .footer-sections img {
+  padding-block: 6px;
+}
+
+.footer .floating-bell {
+  position: absolute;
+  right: 51px;
+  top: 200px;
+}
+
+.footer .floating-bell-2 {
+  position: absolute;
+  right: 0;
+  bottom: 90px;
+}
+
+@media (width >= 70em) {
+  .footer {
+    padding-block: 72px;
+    row-gap: 32px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 138px;
+  }
+
+  .footer .footer-sections {
+    width: 128px;
+  }
+
+  .footer .floating-bell {
+    left: 0;
+    top: 170px;
+  }
+}
